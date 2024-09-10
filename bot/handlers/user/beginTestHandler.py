@@ -1,7 +1,3 @@
-import time
-from http.client import responses
-
-from aiogram.filters import state
 from aiogram.fsm.context import FSMContext
 from aiogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 from data.test_chooser import test_chooser
