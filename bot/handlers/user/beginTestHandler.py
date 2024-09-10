@@ -11,7 +11,7 @@ async def beginTest(query: CallbackQuery, state: FSMContext):
     lang = query.data.split(':')[1]
     level = query.data.split(':')[2]
     count = query.data.split(':')[3]
-    if lang == "TR":
+    if lang == "TR" and level == "A1" and (count == "10" or count == "20"):
         tests = test_chooser(lang, level, count)
         test = tests[0]
         await query.message.answer(
@@ -21,7 +21,7 @@ async def beginTest(query: CallbackQuery, state: FSMContext):
         await state.set_state(TestState.index)
         await state.update_data(test=tests, index=1, correct=0, count=int(count))
     else:
-        await query.message.answer("Bazamizda hali testlar yo'q!😕")
+        await query.message.answer("Bazamizda hali testlar yetarli emas!😕")
 
 @dp.callback_query(TestState.index, lambda query: query.data.startswith('test'))
 async def testHandler(query: CallbackQuery, state: FSMContext):

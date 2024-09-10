@@ -1,16 +1,20 @@
-import openai
 from data.config import OPENAI_API_KEY
+from openai import OpenAI
 
-# Set your OpenAI API key
-openai.api_key = OPENAI_API_KEY
+client = OpenAI(
+    api_key=OPENAI_API_KEY,
+)
 
 def send_request(prompt):
     try:
-        response = openai.ChatCompletion.create(
-          model="gpt-2",
-          messages=[
-                {"role": "user", "content": prompt}
-            ]
+        response = client.chat.completions.create(
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt,
+                }
+            ],
+            model="gpt-3.5-turbo",
         )
         return response['choices'][0]['message']['content']
     except Exception as e:
