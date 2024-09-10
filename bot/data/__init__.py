@@ -1,1 +1,1 @@
-from . import config
+from . import config, test_chooser

@@ -1,0 +1,160 @@
+{
+  "tests": [
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Benim adım _____.",
+      "options": ["Ali", "Kitap", "Ev", "Kapı"],
+      "answer": "Ali"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Bugün hava çok _____.",
+      "options": ["güzel", "soğuk", "kırmızı", "uzun"],
+      "answer": "güzel"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Sabah kahvaltıda ____ içiyorum.",
+      "options": ["çay", "telefon", "çanta", "kitap"],
+      "answer": "çay"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Saat 8'de ____ gidiyorum.",
+      "options": ["okula", "ev", "ağaç", "defter"],
+      "answer": "okula"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "Hangi mevsim kışın gelir?",
+      "options": ["İlkbahar", "Yaz", "Sonbahar", "Kış"],
+      "answer": "Kış"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "Hangi hayvan süt verir?",
+      "options": ["Kedi", "Köpek", "İnek", "Kuş"],
+      "answer": "İnek"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Benim ____ üç yaşında.",
+      "options": ["kardeşim", "televizyon", "masa", "çanta"],
+      "answer": "kardeşim"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Masanın üzerinde ____ var.",
+      "options": ["kitap", "araba", "sandalye", "kapı"],
+      "answer": "kitap"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "Türkiye'nin en büyük şehri hangisidir?",
+      "options": ["Ankara", "İstanbul", "İzmir", "Antalya"],
+      "answer": "İstanbul"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "Kahve ne renktir?",
+      "options": ["Mavi", "Yeşil", "Kırmızı", "Kahverengi"],
+      "answer": "Kahverengi"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Ben her sabah ____ yaparım.",
+      "options": ["kahvaltı", "araba", "masa", "kedi"],
+      "answer": "kahvaltı"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "Hangi renk elma olabilir?",
+      "options": ["Mavi", "Yeşil", "Sarı", "Kahverengi"],
+      "answer": "Yeşil"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Annem bana ____ alıyor.",
+      "options": ["oyuncak", "televizyon", "kapı", "kalem"],
+      "answer": "oyuncak"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "Bir hafta kaç gündür?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Odamda bir ____ var.",
+      "options": ["yatak", "elma", "çatal", "kuş"],
+      "answer": "yatak"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Sabahları ____ içiyorum.",
+      "options": ["çorba", "çay", "makarna", "pilav"],
+      "answer": "çay"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "Türkiye'nin bayrağı hangi renktedir?",
+      "options": ["Mavi", "Kırmızı", "Yeşil", "Sarı"],
+      "answer": "Kırmızı"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Havalar soğuyunca ____ giyiyorum.",
+      "options": ["mont", "kitap", "yatak", "masa"],
+      "answer": "mont"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "Gökkuşağında kaç renk vardır?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "Dünyanın en yüksek dağı hangisidir?",
+      "options": ["K2", "Everest", "Kilimanjaro", "Mont Blanc"],
+      "answer": "Everest"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Okula giderken ____ alıyorum.",
+      "options": ["çanta", "kitap", "araba", "masa"],
+      "answer": "çanta"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Gece ____ izliyorum.",
+      "options": ["film", "kitap", "kalem", "televizyon"],
+      "answer": "film"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "Hangi gezegen Güneş Sistemi'nde en küçüktür?",
+      "options": ["Merkür", "Venüs", "Dünya", "Mars"],
+      "answer": "Merkür"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "İnsanlar hangi organıyla duyar?",
+      "options": ["Göz", "Kulak", "Burun", "Dil"],
+      "answer": "Kulak"
+    },
+    {
+      "type": "Boşluk Doldurma",
+      "question": "Bir hafta boyunca ____ yaptım.",
+      "options": ["ders", "araba", "çanta", "elma"],
+      "answer": "ders"
+    },
+    {
+      "type": "Çoktan Seçmeli",
+      "question": "Hangi araç havada uçar?",
+      "options": ["Gemi", "Uçak", "Tren", "Otobüs"],
+      "answer": "Uçak"
+    }
+  ]
+}
