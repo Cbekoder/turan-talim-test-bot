@@ -23,6 +23,7 @@ async def beginTest(query: CallbackQuery, state: FSMContext):
     else:
         await query.message.answer("Bazamizda hali testlar yetarli emas!😕")
 
+
 @dp.callback_query(TestState.index, lambda query: query.data.startswith('test'))
 async def testHandler(query: CallbackQuery, state: FSMContext):
     await query.answer(cache_time=10)
@@ -34,6 +35,16 @@ async def testHandler(query: CallbackQuery, state: FSMContext):
     test = data['test']
     correct = data['correct']
     count = data['count']
+
+    prev_test = f"{test[index-1]['question']}\n\n"
+    for p_option in test[index-1]['options']:
+        prev_test += f"{p_option}"
+        if p_option == answer:
+            prev_test += "✅"
+        elif p_option == option:
+            prev_test += "❌"
+        prev_test += "\n"
+    await query.message.edit_text(prev_test)
 
     if option == answer:
         correct += 1
